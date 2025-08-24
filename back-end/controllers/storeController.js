@@ -1,4 +1,4 @@
-const Store = require('../models/Store'); // make sure you have a Store model
+const Store = require('../models/Store'); 
 
 exports.getStores = async (req, res) => {
   try {
